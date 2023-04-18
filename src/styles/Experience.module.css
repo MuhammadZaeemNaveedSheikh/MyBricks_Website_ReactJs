@@ -1,0 +1,98 @@
+.main {
+  padding: 200px 43px 106px 106px;
+  display: flex;
+  row-gap: 100px;
+  column-gap: 132px;
+}
+
+.mainClass {
+  display: flex;
+  column-gap: 60px;
+  margin-top: 44px;
+  flex-wrap: wrap;
+}
+@media (max-width: 1600px) and (min-width: 1100px) {
+  .main {
+    padding: 200px 56px 106px 56px;
+    justify-content: space-between;
+  }
+  .mainClass {
+    margin-top: 30px;
+  }
+}
+
+.imageSection {
+  width: 50%;
+}
+
+.textSection {
+  width: 50%;
+}
+/* Experience Section */
+
+@media (max-width: 1100px) {
+  .main {
+    flex-direction: column;
+    padding: 40px 20px;
+  }
+
+  .imageSection {
+    width: 80%;
+    display: flex;
+    align-self: center;
+  }
+
+  .textSection {
+    width: 100%;
+  }
+}
+.experienceHeading {
+  font-size: 40px;
+}
+@media (max-width: 1980px) {
+  .experienceHeading {
+    font-size: 40px;
+    line-height: 65px;
+  }
+  .experienceDescription{
+    font-size: 18px;
+    margin-top: 15px;
+  }
+}
+
+@media (max-width: 1700px) {
+  .experienceHeading {
+    font-size: 36px;
+    line-height: 42px;
+  }
+  .experienceDescription {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 1290px) {
+  .experienceHeading {
+    font-size: 30px;
+  }
+  .experienceDescription {
+    font-size: 14px;
+  }
+}
+@media (max-width: 500px) {
+  .experienceHeading {
+    font-size: 26px;
+    line-height: 35px;
+  }
+  .experienceDescription{
+    font-size: 14px;
+  }
+}
+/* Review Section */
+/* @media (max-width: 1930px) {
+  .experienceHeading {
+    font-size: 20px;
+  }
+  .reviewDescription {
+    font-size: 16px;
+  }
+} */

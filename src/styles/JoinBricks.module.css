@@ -1,0 +1,150 @@
+.main {
+  padding: 0px 151px 151px 151px;
+}
+
+.planeImage {
+  position: absolute;
+  top: -80px;
+  margin-left: 37%;
+}
+
+.cardMain {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 150px;
+  column-gap: 80px;
+  padding-left: 151px;
+  padding-right: 151px;
+}
+@media (max-width: 1600px) and (min-width: 1100px) {
+  .cardMain {
+    column-gap: 90px;
+  }
+}
+
+.mainHeading {
+  padding-left: 151px;
+  padding-right: 151px;
+}
+
+@media (max-width: 1600px) and (min-width: 1100px) {
+  .mainHeading,
+  .cardMain {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
+.imageSection {
+  width: 40%;
+}
+
+.textSection {
+  width: 60%;
+}
+
+@media (max-width: 1600px) and (min-width: 1100px) {
+  .imageSection {
+    width: 40% !important;
+  }
+
+  .textSection {
+    width: 60% !important;
+  }
+}
+@media (max-width: 1100px) {
+  .textSection {
+    width: 100%;
+    margin-top: 50px;
+  }
+
+  .imageSection {
+    display: flex;
+    align-self: center;
+    margin-top: 50px;
+  }
+}
+
+@media (max-width: 1120px) {
+  .cardMain {
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+
+  .mainHeading {
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 80px;
+  }
+
+
+
+
+}
+
+.bgImage {
+  background-image: url("../../public//images/landingPage/joinBg.svg");
+  background-repeat: no-repeat;
+  background-position: 0px -300px;
+
+  background-size: 100%;
+}
+@media (max-width: 1120px) {
+  .bgImage {
+    display: none;
+  }
+}
+@media (min-width: 1120px) {
+  .bgImage2 {
+    display: none;
+  }
+}
+@media (max-width: 1120px) {
+  .bgImage2 {
+    display: block;
+  }
+}
+
+.yellowSection {
+  padding: 0px 170px 150px 170px;
+}
+
+@media (max-width: 1600px) and (min-width: 1100px) {
+  .yellowSection {
+    padding: 0px 60px 100px 60px;
+  }
+}
+@media (max-width: 1100px) {
+  .yellowSection {
+    padding: 0px 100px 100px 100px;
+  }
+}
+
+@media (max-width: 900px) {
+  .yellowSection {
+    padding: 0px 20px 20px 20px;
+  }
+}
+
+.bottomHeading {
+  padding: 0px 170px 50px 170px;
+}
+@media (max-width: 1600px) and (min-width : 1100px) {
+  .bottomHeading {
+    padding: 0px 60px 50px 60px;
+  }
+}
+@media (max-width: 1120px) {
+  .bottomHeading {
+    padding: 0px 100px 50px 100px;
+  }
+}
+
+@media (max-width: 900px) {
+  .bottomHeading {
+    padding: 0px 20px 20px 20px;
+  }
+}

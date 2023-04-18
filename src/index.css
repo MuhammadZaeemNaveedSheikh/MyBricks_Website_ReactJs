@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+@font-face {
+  font-family: poppins;
+  src: url(../public/fonts/Poppins/Poppins-Regular.ttf);
+}
+
+@font-face {
+  font-family: poppins-light;
+  src: url(../public/fonts/Poppins/Poppins-Light.ttf);
+}
+
+@font-face {
+  font-family: poppins-medium;
+  src: url(../public/fonts/Poppins/Poppins-Medium.ttf);
+}
+
+@font-face {
+  font-family: poppins-semiBold;
+  src: url(../public/fonts/Poppins/Poppins-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: poppins-bold;
+  src: url(../public/fonts/Poppins/Poppins-Bold.ttf);
+}
+
+@font-face {
+  font-family: poppins-extraBold;
+  src: url(../public/fonts/Poppins/Poppins-ExtraBold.ttf);
+}
+
+body {
+  margin: 0;
+  font-family: "poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.footer-container a {
+  font-family: "poppins-light";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  color: rgba(0, 33, 89, 0.7);
+  padding-top: 16px;
+}
+.blog-slider .slick-slide{
+  opacity: 0.5;
+  transition: ease-in-out 0.5s;
+}
+.blog-slider .slick-center{
+  opacity: 1;
+  transition: ease-in-out 0.5s !important;
+}
+.review-slider .slick-slide{
+  opacity: 1;
+  transition: ease-in-out 0.5s;
+  position: relative;
+  left: 20px;
+  top: 30px;
+}
+.review-slider .slick-center{
+  position: relative;
+  opacity: 0.5;
+  transition: ease-in-out 0.5s !important;
+  left: 60px;
+  top: -160px;
+  z-index: -1;
+}
+.review-slider .slick-list{padding:0 25% 0 0 !important;}
+
+@media only screen and (max-width: 768px) {
+  .review-slider .slick-slide{
+  top: -0px;
+  }
+  .review-slider .slick-center{
+    top: -220px;
+  }
+}
+
+/* Review Section */
+.reviewTitles{
+  font-size: 40px;
+}
+.reviewDescription{
+  font-size: 20px;
+}
+@media only screen and (max-width: 1510px) {
+  .reviewDescription{
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 1510px) {
+  .reviewDescription{
+    font-size: 14px;
+    color:'black'
+  }
+}
+@media only screen and (max-width: 1425px) {
+  .reviewTitles{
+    font-size: 30px;
+  }
+}
+@media only screen and (max-width: 1150px) {
+  .reviewTitles{
+    font-size: 25px;
+  }
+}
+@media only screen and (max-width: 440px) {
+.myBricksTitle{
+font-size: 25px !important;
+}
+}
+/* joinbricksSec */
+
+@media (max-width: 1120px) {
+  .joinbricksSec {
+    display: none;
+  }
+}
+@media (min-width: 1120px) {
+  .joinbricksSec2 {
+    display: none;
+  }
+}
+@media (max-width: 1120px) {
+  .joinbricksSec2 {
+    display: block;
+  }
+}
+

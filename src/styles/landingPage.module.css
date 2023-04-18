@@ -1,0 +1,45 @@
+.main {
+  background-color: #fefcfb;
+}
+/* Hero Section */
+@media (max-width: 1155px) {
+  .heroSectionHeading {
+    font-size: 36px;
+  }
+}
+@media (max-width: 860px) {
+  .heroSectionHeading {
+    font-size: 30px;
+  }
+}
+@media (max-width: 370px) {
+  .heroSectionHeading {
+    font-size: 27px;
+  }
+}
+
+@media (max-width: 1765px) {
+  .heroSectionDescription {
+    font-size: 22px;
+  }
+}
+@media (max-width: 1495px) {
+  .heroSectionDescription {
+    font-size: 18px;
+  }
+}
+@media (max-width: 1244px) {
+  .heroSectionDescription {
+    font-size: 15px;
+  }
+}
+@media (max-width: 1045px) {
+  .heroSectionDescription {
+    font-size: 14px;
+  }
+}
+@media (max-width: 450px) {
+  .heroSectionDescription {
+    font-size: 14px;
+  }
+}
